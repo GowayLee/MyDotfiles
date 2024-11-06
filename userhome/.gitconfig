@@ -1,0 +1,7 @@
+[user]
+	name = Li Haoyuan
+	email = 1513624626@qq.com
+[core]
+	editor = nvim
+[http]
+	postBuffer = 524288000
