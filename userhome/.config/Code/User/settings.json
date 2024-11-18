@@ -1,0 +1,231 @@
+{
+    "editor.minimap.autohide": true,
+    "explorer.confirmDelete": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "files.autoSave": "onFocusChange",
+    "backgroundCover.randomImageFolder": "/home/LiHaoyuan/wall_paper",
+    "backgroundCover.imagePath": "/home/LiHaoyuan/wall_paper/Haystack at Giverny, 1886.jpg",
+    "backgroundCover.autoStatus": true,
+    "backgroundCover.opacity": 0.1,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "cmake.configureOnOpen": true,
+    "editor.cursorStyle": "block",
+    "explorer.confirmDragAndDrop": false,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "markdown-preview-enhanced.previewTheme": "github-light.css",
+    "debug.onTaskErrors": "showErrors",
+    "markdown-preview-enhanced.codeBlockTheme": "github.css",
+    "markdown-preview-enhanced.alwaysShowBacklinksInPreview": false,
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "redhat.telemetry.enabled": false,
+    "hexeditor.columnWidth": 16,
+    "hexeditor.showDecodedText": true,
+    "hexeditor.defaultEndianness": "little",
+    "hexeditor.inspectorType": "aside",
+    "Lingma.localMachineModel": true,
+    "Lingma.cloudModelAutoTriggerGenerateLength": "medium",
+    "markdown-preview-enhanced.enablePreviewZenMode": false,
+    "gitlens.ai.experimental.provider": "openai",
+    "gitlens.ai.experimental.openai.model": "gpt-3.5-turbo-1106",
+    "gitlens.currentLine.format": "    ${author, }${agoOrDate}${' via 'pullRequest}${ • message|50?}",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "python.createEnvironment.trigger": "off",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "msg.dbEditor.connectionBrowser.showGreeting": false,
+    "Lingma.LocalStoragePath": "C:\\Users\\LiHaoyuan\\.lingma",
+    "terminal.integrated.cursorBlinking": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "Codegeex.Privacy": true,
+    "todohighlight.isEnable": false,
+    "debug.javascript.defaultRuntimeExecutable": {
+        "pwa-node": "node"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.productIconTheme": "a-file-icon-vscode-product-icon-theme",
+    "editor.dragAndDrop": false,
+    "git.suggestSmartCommit": false,
+    "gitlens.views.branches.branches.layout": "list",
+    "python.defaultInterpreterPath": "D:\\Anaconda\\python.exe",
+    "backgroundCover.sizeModel": "cover",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "cmake.showOptionsMovedNotification": false,
+    "Codegeex.EnableExtension": true,
+    "explorer.confirmPasteNative": false,
+    "[shellscript]": {
+        "editor.defaultFormatter": "mads-hartmann.bash-ide-vscode"
+    },
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "gitlens.advanced.messages": {
+        "suppressLineUncommittedWarning": true
+    },
+    "editor.fontLigatures": true,
+    "editor.fontVariations": true,
+    "terminal.integrated.fontFamily": "MesloLGMDZ Nerd Font",
+    "editor.fontFamily": "'Maple Mono SC NF', 'Fira Code', Consolas, monospace",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.gotoLocation.multipleDeclarations": "gotoAndPeek",
+    "editor.gotoLocation.multipleDefinitions": "gotoAndPeek",
+    "editor.gotoLocation.multipleImplementations": "gotoAndPeek",
+    "editor.gotoLocation.multipleReferences": "gotoAndPeek",
+    "editor.gotoLocation.multipleTypeDefinitions": "gotoAndPeek",
+    "editor.guides.bracketPairs": "active",
+    "editor.guides.bracketPairsHorizontal": false,
+    "editor.lightbulb.enabled": "onCode",
+    "editor.linkedEditing": true,
+    "editor.mouseWheelZoom": true,
+    "editor.tabCompletion": "on",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.minimap.size": "fit",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.sideBar.location": "right",
+    "workbench.tree.renderIndentGuides": "always",
+    "explorer.autoReveal": "focusNoScroll",
+    "search.defaultViewMode": "tree",
+    "extensions.closeExtensionDetailsOnViewChange": true,
+    "scm.defaultViewMode": "tree",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[less]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "jupyter.askForKernelRestart": false,
+    "notebook.lineNumbers": "on",
+    "workbench.editor.tabSizing": "shrink",
+    "terminal.integrated.defaultProfile.windows": "Zsh",
+    "terminal.integrated.profiles.windows": {
+        "Zsh": {
+            "path": "C:\\Unix_env\\msys64\\msys2_shell.cmd",
+            "args": [
+                "-defterm",
+                "-here",
+                "-full-path",
+                "-no-start",
+                "-mingw64",
+                "-shell",
+                "zsh"
+            ],
+        },
+        "Bash": {
+            "path": "C:\\Unix_env\\msys64\\msys2_shell.cmd",
+            "args": [
+                "-defterm",
+                "-here",
+                "-full-path",
+                "-no-start",
+                "-mingw64",
+                "-shell",
+                "bash"
+            ],
+            "env": {
+                "CHERE_INVOKING": "1"
+            }
+        },
+        "Git Bash": null,
+        "Command Prompt": null,
+    },
+    "terminal.integrated.lineHeight": 1.15,
+    "terminal.integrated.tabs.location": "left",
+    "workbench.tree.indent": 12,
+    "Codegeex.Chat.LanguagePreference": "中文",
+    "Codegeex.Comment.LanguagePreference": "中文",
+    "Codegeex.SidebarUI.LanguagePreference": "中文",
+    "Codegeex.OnlyKeyControl": false,
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+    "java.completion.chain.enabled": true,
+    "spring.initializr.defaultLanguage": "Java",
+    "terminal.integrated.shellIntegration.history": 0,
+    "Codegeex.License": "",
+    "vscode_custom_css.imports": [
+        "file:///C:/Users/LiHaoyuan/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.4/dist/updateHandler.js"
+    ],
+    "animations.CursorAnimationOptions": {
+        "CursorStyle": "line",
+        "TrailLength": 16
+    },
+    "animations.Focus-Dimming-Mode": "Everything But Editor",
+    "animations.Focus-Dimming-Amount": 40,
+    "animations.Scrolling": "None",
+    "animations.Default-Duration": 250,
+    "animations.Active": "None",
+    "animations.Install-Method": "Custom CSS and JS",
+    "animations.CursorAnimation": true,
+    "animations.Command-Palette": "None",
+    "animations.Custom-CSS": false,
+    "animations.Tabs": "None",
+    "animations.Smooth-Mode": false,
+    "workbench.activityBar.location": "top",
+    "editor.tabSize": 2, 
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#252a30",
+        "statusBar.noFolderBackground": "#252a30",
+        "statusBar.debuggingBackground": "#252a30",
+        "statusBar.foreground": "#ffffff",
+        "statusBar.debuggingForeground": "#ffffff",
+        "editorMultiCursor.primary.foreground": "#ff0000",
+        "editorMultiCursor.secondary.foreground": "#e5ff00",
+        "editorCursor.foreground": "#f7e5b5d7",
+        "terminalCursor.foreground": "#ffffff"
+    },
+    "vim.cursorStylePerMode.insert": "line",
+    "vim.cursorStylePerMode.normal": "block",
+    "vim.cursorStylePerMode.replace": "underline",
+    "vim.cursorStylePerMode.visual": "block",
+    "vim.cursorStylePerMode.visualblock": "block",
+    "vim.hlsearch": true,
+    "vim.statusBarColorControl": false,
+    "vim.useSystemClipboard": true,
+    "vim.cursorStylePerMode.visualline": "block",
+    "vim.statusBarColors.insert": "#e41755",
+    "vim.statusBarColors.normal": "#252a30",
+    "vim.statusBarColors.visual": "#10be00",
+    "editor.lineNumbers": "on",
+    "extensions.ignoreRecommendations": true,
+    "C_Cpp.codeAnalysis.updateDelay": 500,
+    "zenMode.hideStatusBar": false,
+    "workbench.colorTheme": "One Dark Pro",
+    "oneDarkPro.bold": true,
+    "oneDarkPro.editorTheme": "One Dark Pro Mix",
+    "oneDarkPro.vivid": true,
+    "clock.dateFormat": "HH:MM",
+    "window.customTitleBarVisibility": "auto",
+    "window.titleBarStyle": "custom",
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "editor.cursorBlinking": "solid",
+    "zenMode.fullScreen": false,
+    "zenMode.centerLayout": false,
+    "C_Cpp.autocompleteAddParentheses": true,
+    "C_Cpp.intelliSenseUpdateDelay": 2000,
+    "editor.inlayHints.padding": true,
+    "editor.wordWrapColumn": 160,
+    "editor.fontSize": 15,
+    "window.experimentalControlOverlay": false,
+    "editor.formatOnPaste": true,
+}
