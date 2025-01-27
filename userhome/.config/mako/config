@@ -1,0 +1,24 @@
+# 基本配置
+width=300
+height=100
+background-color=#2E3440
+text-color=#D8DEE9
+border-color=#81A1C1
+border-size=2
+border-radius=12
+default-timeout=3000
+font=WenQUanYi Micro Hei Mono 10
+progress-color=#81A1C1
+
+# 自定义通知样式
+[urgency=low]
+background-color=#4C566A
+text-color=#ECEFF4
+
+[urgency=normal]
+background-color=#2E3440
+text-color=#D8DEE9
+
+[urgency=high]
+background-color=#BF616A
+text-color=#ECEFF4

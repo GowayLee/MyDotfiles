@@ -1,6 +1,7 @@
 [window]
 padding = { x = 10, y = 10 }
 dynamic_padding = true
+opacity = 0.80
 
 [font]
 size = 9.0
@@ -11,3 +12,6 @@ bold_italic = { family = "MesloLGMDZ Nerd Font", style = "Bold Italic" }
 
 [bell]
 animation = "Ease"
+
+[env]
+TERM = "xterm-256color"

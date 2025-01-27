@@ -1,0 +1,106 @@
+{
+    "reload_style_on_change": true,
+    "layer": "top",
+    "position": "top",  
+    "spacing": 6,
+    "margin-top": 0,
+    "margin-left": 0,
+    "margin-right": 0,
+    "margin-bottom": 0,
+    "height": 32,
+    "modules-left": ["niri/workspaces", "niri/window"],
+    "modules-right": ["network", "pulseaudio", "cpu", "memory", "temperature", "battery", "clock", "tray"],
+    "tray": {
+      "spacing": 0,
+    },
+    "clock": {
+        "interval": 10,
+        "format": "{:%H:%M}",
+        "format-alt": "\uf133 {:%Y-%m-%d %a}",
+        "tooltip-format": "<tt>{calendar}</tt>",
+		"timezone": "Asia/Shanghai",
+        "calendar": {
+            "mode"          : "month",
+            "mode-mon-col"  : 3,
+            "weeks-pos"     : "right",
+            "on-scroll"     : 1,
+            "format": {
+                "months":     "<span color='#ffead3'><b>{}</b></span>",
+                "days":       "<span color='#ecc6d9'><b>{}</b></span>",
+                "weeks":      "<span color='#99ffdd'><b>W{}</b></span>",
+                "weekdays":   "<span color='#ffcc66'><b>{}</b></span>",
+                "today":      "<span color='#ff6699'><b><u>{}</u></b></span>"
+            }
+        },
+        "actions": {
+            "on-click-right": "mode",
+            "on-click-forward": "tz_up",
+            "on-click-backward": "tz_down",
+            "on-scroll-up": "shift_up",
+            "on-scroll-down": "shift_down"
+        }
+    },
+    "cpu": {
+        "interval": 3,
+        "format": "\uf2db {usage:2}%",
+        "tooltip": true
+    },
+    "memory": {
+        "interval": 3,
+        "format": "\uf538 {percentage}%",
+        "tooltip": true,
+        "tooltip-format": " RAM: {used:0.2f}G / {total:0.2f}G\nSwap: {swapUsed:0.2f}G / {swapTotal:0.2f}G"
+    },
+    "temperature": {
+      "interval": 3,
+      "critical-threshold": 70,
+      "format": "{icon} {temperatureC}°C",
+      "format-icons": ["󱃃", "󰔏", "󱃂"]
+    },
+    "backlight": {
+      "format": "{icon} {percent}%",
+      "format-icons": ["󰛩", "󱩎", "󱩏", "󱩐", "󱩑", "󱩒", "󱩓", "󱩔", "󱩕", "󱩖", "󰛨"],
+      "on-click": "light -S 20.00",
+      "on-scroll-up": "brightnessctl set +5%",
+      "on-scroll-down": "brightnessctl set 5%-"
+    },
+    "battery": {
+      "interval": 10,
+      "states": {
+        "critical": 25
+      },
+      "format": "{icon} {capacity}%",
+      "format-charging": "󰂄 {capacity}%",
+      "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
+    },
+    "network": {
+      "interval": 1,
+      "format-wifi": "{icon} {essid} - {bandwidthDownBytes}",
+      "tooltip-format-wifi": "Signal strength: {signalStrength}%\nLocal IP: {ipaddr}\nGateway: {gwaddr}",
+      "format-ethernet": "󰈀 {ifname}",
+      "tooltip-format": "Local IP: {ipaddr}\nGateway: {gwaddr}",
+      "format-linked": "󰀦 {ifname} (No IP)",
+      "format-disconnected": "󰀦 {ifname}",
+      "format-alt": "{ipaddr}/{cidr} - {signalStrength}%",
+      "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"]
+    },
+    "pulseaudio": {
+      "scroll-step": 1,
+      "format": "{icon} {volume}% {format_source}",
+      "format-bluetooth": "{icon} {volume}%  {format_source}",
+      "format-bluetooth-muted": "<span>󰖁</span> {volume}%  {format_source}",
+      "format-muted": "󰖁 {volume}% {format_source}",
+      "format-source": "󰍬",
+      "format-source-muted": "󰍭",
+      "format-icons": {
+        "headphone": "󰋋",
+        "default": ["", "", ""],
+        "headphone": "",
+        "hands-free": "",
+        "headset": "󰋋",
+      },
+      "on-click": "pactl set-sink-mute 0 toggle",
+      "on-click-middle": "pavucontrol",
+      "on-click-right": "pactl set-source-mute 0 toggle"
+    }
+}

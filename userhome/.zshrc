@@ -6,15 +6,18 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # export
-export EDITOR='vim'
+export EDITOR='nvim'
 
 # alias
 alias vim='nvim'
-alias sysstatus='sudo systemctl status'
 alias cowfsay='fortune | cowsay'
+alias clcl='bash /home/LiHaoyuan/Scripts/clean_clipboard.sh'
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
+
+alias suspend='systemctl suspend'
+alias hibernate='systemctl hibernate'
 
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
@@ -30,7 +33,9 @@ compinit
 # End of lines added by compinstall
 
 # Themes and Plugins
-source ~/powerlevel10k/powerlevel10k.zsh-theme
+source /usr/share/zsh/plugins/powerlevel10k/powerlevel10k.zsh-theme
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/plugins/zsh_web_search/zsh-web-search.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
