@@ -75,8 +75,8 @@
     },
     "network": {
       "interval": 1,
-      "format-wifi": "{icon} {essid} - {bandwidthDownBytes}",
-      "tooltip-format-wifi": "Signal strength: {signalStrength}%\nLocal IP: {ipaddr}\nGateway: {gwaddr}",
+      "format-wifi": "{icon}  {bandwidthDownBytes}",
+      "tooltip-format-wifi": "ESSID: {essid}\nSignal strength: {signalStrength}%\nLocal IP: {ipaddr}\nGateway: {gwaddr}",
       "format-ethernet": "󰈀 {ifname}",
       "tooltip-format": "Local IP: {ipaddr}\nGateway: {gwaddr}",
       "format-linked": "󰀦 {ifname} (No IP)",
